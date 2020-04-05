@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HB.MarsRoverCase")]
+[assembly: AssemblyTitle("HB.MarsRoverCase.ConsoleApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HB.MarsRoverCase")]
+[assembly: AssemblyProduct("HB.MarsRoverCase.ConsoleApp")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("222a3cfd-7e4b-4a30-8b8e-e424ef28f814")]
+[assembly: Guid("0c92e520-fec0-4c9f-a689-4597f12cd632")]
 
 // Version information for an assembly consists of the following four values:
 //

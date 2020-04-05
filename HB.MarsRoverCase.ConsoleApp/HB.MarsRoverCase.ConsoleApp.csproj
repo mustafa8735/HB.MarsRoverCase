@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{222A3CFD-7E4B-4A30-8B8E-E424EF28F814}</ProjectGuid>
+    <ProjectGuid>{0C92E520-FEC0-4C9F-A689-4597F12CD632}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HB.MarsRoverCase</RootNamespace>
-    <AssemblyName>HB.MarsRoverCase</AssemblyName>
+    <RootNamespace>HB.MarsRoverCase.ConsoleApp</RootNamespace>
+    <AssemblyName>HB.MarsRoverCase.ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\Command\CommandCenter.cs" />
+    <Compile Include="Business\Command\CommandExecuter.cs" />
+    <Compile Include="Business\Command\RoverCommandExecuter.cs" />
+    <Compile Include="Business\Command\RoverDeployCommandExecuter.cs" />
+    <Compile Include="Business\Command\SurfaceCommandExecuter.cs" />
+    <Compile Include="Business\Rovers\IRoverManager.cs" />
+    <Compile Include="Business\Rovers\Rover.cs" />
+    <Compile Include="Business\Rovers\RoverManager.cs" />
+    <Compile Include="Business\Surface\ISurface.cs" />
+    <Compile Include="Business\Surface\Plataeu.cs" />
+    <Compile Include="Entity\Enums.cs" />
+    <Compile Include="Entity\SurfaceSize.cs" />
+    <Compile Include="Helper\Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
